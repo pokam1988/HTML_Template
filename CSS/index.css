@@ -1,0 +1,136 @@
+* {
+    box-sizing:border-box;
+  }
+  
+  .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
+
+  /*.container {
+    position: relative;
+    font-family: Arial;
+  }*/
+
+  .text-block {
+    /*position: absolute;*/
+    bottom: 508px;
+    right: 20px;
+    /*background-color: black;*/
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+  }
+
+.container {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.textarea{
+    border-style: none;
+}
+.application-title1 img {
+    /*width: 200px; */
+    /* height: 200px; */
+    box-sizing: border-box;
+    padding-left: 178px;
+    /* background: url(http://lorempixel.com/200/200/city/2) left top no-repeat; */
+    left: 34px;
+    margin-left: -82px;
+  }
+
+  .application-title2 img {
+    width:200px;
+    height:200px;
+    box-sizing:border-box;
+    /*padding-left: 200px;*/
+    /*width of the image*/
+    /*background: url(http://lorempixel.com/200/200/city/2) left top no-repeat;*/
+    padding-right: 92px;
+}
+
+.container img {vertical-align: middle;}
+
+.container .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+  h2{
+    top: 0px;
+    left: 529px;
+    width: 307px;
+    height: 47px;
+    text-align: center;
+    font: normal normal 600 35px/47px Open Sans;
+    letter-spacing: 0.1px;
+    color: #C4C4C4;
+    margin: auto;
+  }
+
+  h4{
+    top: 82px;
+    left: 0px;
+    width: 498px;
+    height: 41px;
+    text-align: left;
+    font: normal normal normal 30px/41px Open Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+  }
+  
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-family: Arial;
+}
+  p {
+    max-width: 100%;
+    max-height: auto;
+    top: 47px;
+    left: 338px;
+    width: 687px;
+    height: 47px;
+    text-align: center;
+    font: normal normal 600 35px/47px Open Sans;
+    letter-spacing: 0.1px;
+    color: #000000;
+    margin: auto;
+  }
+
+  .span{
+    display: block;
+  }
+  
+  .main. {
+       /* background später weg */
+    background-color:#f1f1f1;
+    padding:20px;
+    float:left;
+    width:100%; /* The width is 60%, by default */
+    
+  }
+  
+
+  
+  /* Use a media query to add a break point at 800px: */
+  @media screen and (max-width:800px) {
+    .left, .main, .right {
+      width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }

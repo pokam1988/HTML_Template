@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="présentation générale de optimum sarl, qui est optimum electrique? ">
+        <meta name="author" content="">
+        <title></title>
+		<link rel="stylesheet" href="pikop/css/thermometer.css">
+		<link rel="stylesheet" href="pikop/css/thermometer2.css">
+		<link rel="stylesheet" href="pikop/css/thermometer3.css">
+        <!-- core CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <link href="css/animate.min.css" rel="stylesheet">
+        <link href="css/main.css" rel="stylesheet">
+        <link href="css/responsive.css" rel="stylesheet">
+        <!--[if lt IE 9]>
+
+    </head><!--/head-->
+
+    <body >
+        <div class="row global">
+            <div class="row SYSTEMVERWALTUNG">
+                <h3><strong>SYSTEMVERWALTUNG</strong></h3>
+            </div>
+            <div class="row ">
+                <div class="col-md-6  ">
+                    <h3 style="color:blue; text-align: center " ><strong>HAUS 2</strong></h3>
+                </div>
+            </div>
+            <div class="col-md-6 div-gauche">
+                <div class="col-md-3 div-gauche-gauche">
+                    <div class="row meteoo">
+                        <img src="img/meteo.jpeg" alt="meteo" width="171px">
+                    </div>
+                    <div class="row">
+                        <div id="thermo4" class="thermometer">
+                            <div class="track">
+                                <div class="goal">
+                                    <div class="amount">  </div>
+                                </div>
+                                <div class="progress">
+                                    <div class="amount">0</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="maintank">MA IN TANK</p>
+                </div>
+                <div class="col-md-8 ">
+                    <div class="row div-droite">
+                        <div class="row WaMaSys">
+                            SMART WaMaSys
+                        </div>
+                        <div class="col-md-6">
+                            <form>
+                                <div class="form-group">
+                                    <input class="form-control" />
+                                </div>
+                                <button type="submit" class="btn btn-primary btn-jaune">Get Temperatur</button>
+                            </form>
+                        </div>
+                        <div class="col-md-6">
+                            <form>
+                                <div class="form-group">
+                                    <input class="form-control"  />
+                                </div>
+                                <button type="submit" class="btn btn-primary btn-jaune">Get Waterlevel</button>
+                            </form>
+                        </div>
+                        <div class="col-md-6 ">
+                            <br>
+                            <form>
+                                <div class="form-group">
+                                    <input class="form-control" value="Get Wasserverbrauch in (Liter)/"/>
+                                </div>
+                                <button type="submit" class="btn btn-primary btn-jaune">Get Wasserverbraucht</button>
+                            </form>
+                        </div>
+                        <div class="col-md-6 div-an-aus">
+
+                            <div class="row">
+                                <br>
+                                <div class="col-md-2">
+                                    <form>
+                                        <button type="button" class="btn btn-success" id="pmp1">AN</button>
+                                    </form>
+                                </div>
+                                <div class="col-lg-offset-5 col-md-3">
+                                    <form>
+                                        <button type="button" class="btn btn-danger aus" id="pmp2">AUS</button>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="row Pumpe">
+                                <form>
+                                    <button type="submit" class="btn ">Set Pumpe</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="row Jahresverbrauch">
+                            <h3>Jahresverbrauch Wasser</h3>
+                        </div>
+
+                        <div class="row div-chart">
+                            <div>
+                                <canvas id="myChart"></canvas>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 big-div-droite">
+
+                <div class="row">
+                    <div class="col-md-4 haus-group">
+                        <div class="row">
+                            <div class="haus-text">
+                                <strong>HAUS 1</strong>
+                            </div>
+                        </div>
+
+                        <div class="row head-rigth">
+                            <div class="row  ">
+                                Pumpstatut
+                            </div>
+                        </div>
+
+                        <div class="row haus-input">
+                            <div class="col-md-6 div-input">
+                                <input type="text" class="form-control temperatureval" id="temperatureval" disabled>
+                            </div>
+                            <div class="col-md-6 ">
+                                   <input type="text" class="form-control " id="debitval" disabled>
+                            </div>
+                        </div>
+                        <div class="row head-rigth">
+                            <div class="row  ">
+                                Tank-Control
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div id="thermo1" class="thermometer">
+                                <div class="track">
+                                    <div class="goal">
+                                        <div class="amount">  </div>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="amount">0</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 haus-group">
+                        <div class="row">
+                            <div class="haus-text">
+                                <strong>HAUS 2</strong>
+                            </div>
+                        </div>
+                        <div class="row head-rigth">
+                            <div class="row  ">
+                                Pumpstatut
+                            </div>
+                        </div>
+                        <div class="row haus-input ">
+                            <div class="col-md-6 div-input">
+                                <input type="text" class="form-control " id="temperatureval2" disabled>
+                            </div>
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" value="1590" disabled>
+                            </div>
+                        </div>
+                        <div class="row head-rigth">
+                            <div class="row  ">
+                                Tank-Control
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div id="thermo2" class="thermometer">
+                                <div class="track">
+                                    <div class="goal">
+                                        <div class="amount">  </div>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="amount">0 </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-4 haus-group">
+                        <div class="row">
+                            <div class="haus-text">
+                                <strong>HAUS 3</strong>
+                            </div>
+                        </div>
+
+                        <div class="row head-rigth">
+                            <div class="row  ">
+                                Pumpstatut
+                            </div>
+                        </div>
+
+
+                        <div class="row haus-input">
+                            <div class="col-md-6 div-input">
+                                <input type="text" class="form-control " id="temperatureval3" disabled>
+                            </div>
+                            <div class="col-md-6 ">
+                                <input type="text" class="form-control" value="1590" disabled>
+                            </div>
+                        </div>
+                        <div class="row head-rigth">
+                            <div class="row  ">
+                                Tank-Control
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div id="thermo3" class="thermometer">
+                                <div class="track">
+                                    <div class="goal">
+                                        <div class="amount">  </div>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="amount">0</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+        <script src="js/Chart.min.js"></script>
+        <script src="js/Chart.bundle.min.js"></script>
+        <script src="js/main.js"></script>
+		
+		
+		<script src="pikop/js/jquery-3.1.1.min.js"></script>
+        <script src="pikop/js/thermometer.js"></script>
+		<script src='http://cdnjs.cloudflare.com/ajax/libs/d3/3.4.11/d3.min.js'></script>
+        <script src="pikop/js/index.js"></script>
+		<script src="pikop/js/tether.min.js"></script>
+		<script src="pikop/js/bootstrap.min.js"></script>
+		<script src="pikop/js/app.js"></script>
+		<script src="pikop/js/industrial.js"></script>
+		<script src="pikop/js/html5-canvas-bar-graph.js"></script>
+		<script type = "pikop/text/javascript"></script>	
+    </body>
+</html>

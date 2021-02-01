@@ -1,0 +1,131 @@
+<!doctype html>
+<html>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="présentation générale de optimum sarl, qui est optimum electrique? ">
+    <meta name="author" content="">
+    <title></title>
+   
+
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/form.css">
+    
+  </head>
+  <body>
+    <header>
+        <div class="wrapper">
+            <img src="img/photoeins.png" alt="logo" style="width: 86px; margin-left: 234px;"> <span>Kontakt Telefon: icon 0512187290385</span> 
+        </div>
+    
+  </header>
+    
+    <div class="main">
+        <h2>MediFox ambulant</h2>
+        <p>Der ideale Software für Ihren Pflegedienst</p>
+    </div>
+    
+    <div class="main">
+        <img src="img/photoeins.png" alt="" style="width:100%;">
+        
+        <div class="text-block">
+            <h4>"Dank MediFox ambulant wird mein 
+                Pflegedienst effizienter von Tag
+                zu Tag! Das gefällt unseren Klienten
+                und entlastet mein Team!"</h4>
+
+            <p>Maria K. (42 Jahre) Leiterin von Ambu-Care</p>
+            <form action="http://yourserver/register.php" method="post">
+                <table border="0" cellspacing="2" cellpadding="2" style="margin-top: 135px;">
+                  <tbody>
+                    <tr>
+                        <td align="right">Land:</td>
+                        <td>
+                          <input name="Land" size="45" type="text" value="Deutschland" />
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="right">Land:</td>
+                        <td>
+                          <input name="Land" size="45" type="text" value="Deutschland" />
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="right">Land:</td>
+                        <td>
+                          <input name="Land" size="45" type="text" value="Deutschland" />
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="right">Land:</td>
+                        <td>
+                          <input name="Land" size="45" type="text" value="Deutschland" />
+                        </td>
+                      </tr>
+                      
+                  </tbody>
+                </table>
+                </form>
+        </div>
+        
+       
+    </div>
+    </div>
+    
+    <div class="main">
+        <h2>MediFox ambulant</h2>
+        <p>Mehr als eine Software</p>
+      </div>
+      
+      <div class="main">
+        Paragrafe Lorem Ipsum MediFox ambulant
+      </div>
+      <div class="main">
+        60     Nur noch 60 Tage Bis Zu Ihrem Software     438 438ZUFRIEDEN NEUKUNDEN JEDES JAHR
+      </div>
+      <div class="main">
+        104     Nur noch 60 Tage Bis Zu Ihrem Software     
+      </div>
+     
+    <div class="row">
+      <div class="main">
+        <img src="img/photoeins.png" alt="" style="max-width: 50%;"> Photo links halte und recht paragraphe lorep Ipsum
+      </div>
+    </div>
+    <div class="row">
+     <div class= "col-sm 6">
+      <div class="main">
+        Photo recht halte und links paragraphe lorep Ipsum <img src="img/photoeins.png" alt="" style="max-width: 50%; margin-left: 697px;"> 
+      </div>
+    </div>
+    </div>
+      <div class="main">
+        Medifox ambulant im Überblick   
+      </div>
+      <div class="main">
+        <img src="img/photoeins.png" alt=""> photo Medifox ambulent hier
+      </div>
+
+      <div class="main">
+        In 3 Schritten Zum Erfolg mit 3 unter paragraphen
+      </div>
+      <div class="main">
+        Photo recht halte und links paragraphe lorep Ipsum <img src="img/photoeins.png" alt=""> 
+      </div>
+      <div class="main">
+        <img src="img/photoeins.png" alt=""> photo Kontakt
+      </div>
+      <div class="main">
+        Kontakt formular
+      </div>
+
+      <Footer>
+        <div class="wrapper">
+            <img src="img/photoeins.png" alt="logo" style="width: 86px; margin-left: 234px;"> <span>Kontakt Telefon: icon 0512187290385</span> 
+        </div>
+        <p>Herzlich willkommen!</p>
+      </Footer>
+       
+  </body>
+</html>
